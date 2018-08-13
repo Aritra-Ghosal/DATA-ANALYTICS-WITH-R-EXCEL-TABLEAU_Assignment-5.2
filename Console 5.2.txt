@@ -1,0 +1,16 @@
+> vec1 <- c(rownames(mtcars[1:15,]))
+> vec2 <- c(rownames(mtcars[10:32,]))
+> #question 1 answer
+> Q1 <- union(vec1,vec2)
+> View(Q1)
+> #question 2 answer
+> Q2 <- intersect(vec1,vec2)
+> View(Q2)
+> #question 3 answer
+> #elements that are in vec1 but not in vec2
+> Q3 <- setdiff(vec1,vec2)
+> View(Q3)
+> #elements that are in vec2 but not in vec1
+> Q4 <- setdiff(vec2,vec1)
+> View(Q4)
+> 
